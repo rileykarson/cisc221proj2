@@ -1,6 +1,6 @@
 ***************************************************************
-rpistat: ./f5opt
-Sun Mar 22 16:41:10 2015
+rpistat: ./f5
+Tue Mar 24 13:18:06 2015
 
 ***************************************************************
 
@@ -10,28 +10,28 @@ System information
 Performance events
   [ ... ] = scaled event count
   PTI     = per thousand instructions
-  Total periods:      25
+  Total periods:      91
 
-  Cycles:             1,628,596,365
-  Instructions:       224,348,494  [801,244,621]
-  IBUF stall cycles:  6,261,728  [22,363,314]
-  Instr periods:      7
-  CPI:                2.033  
-  IBUF stall percent: 1.373  %
+  Cycles:             6,293,438,308
+  Instructions:       849,058,065  [3,359,316,691]
+  IBUF stall cycles:  31,612,054  [125,073,778]
+  Instr periods:      23
+  CPI:                1.873  
+  IBUF stall percent: 1.987  %
 
-  DC cached accesses: 395,701  [1,648,754]
-  DC misses:          11,217  [46,737]
-  DC periods:         6
-  DC miss ratio:      2.835  %
+  DC cached accesses: 1,467,186  [5,804,953]
+  DC misses:          37,586  [148,709]
+  DC periods:         23
+  DC miss ratio:      2.562  %
 
-  MicroTLB misses:    5,895  [24,562]
-  Main TLB misses:    27  [112]
-  TLB periods:        6
-  Micro miss rate:    0.031   PTI
+  MicroTLB misses:    21,364  [84,527]
+  Main TLB misses:    131  [518]
+  TLB periods:        23
+  Micro miss rate:    0.025   PTI
   Main miss rate:     0.000   PTI
 
-  Branches:           11,905,547  [49,606,445]
-  Mispredicted BR:    478,991  [1,995,795]
-  BR periods:         6
-  Branch rate:        61.912  PTI
-  Mispredict ratio:   4.023  %
+  Branches:           81,747,708  [338,138,246]
+  Mispredicted BR:    10,369,290  [42,891,154]
+  BR periods:         22
+  Branch rate:        100.657 PTI
+  Mispredict ratio:   12.685 %
