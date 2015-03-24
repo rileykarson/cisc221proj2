@@ -1,0 +1,37 @@
+***************************************************************
+rpistat: ./f1
+Tue Mar 24 11:42:09 2015
+
+***************************************************************
+
+System information
+  Number of processors:     1
+
+Performance events
+  [ ... ] = scaled event count
+  PTI     = per thousand instructions
+  Total periods:      121
+
+  Cycles:             8,363,455,012
+  Instructions:       1,068,580,240  [4,170,909,969]
+  IBUF stall cycles:  13,542,318  [52,858,725]
+  Instr periods:      31
+  CPI:                2.005  
+  IBUF stall percent: 0.632  %
+
+  DC cached accesses: 1,767,936  [7,130,675]
+  DC misses:          29,745  [119,971]
+  DC periods:         30
+  DC miss ratio:      1.682  %
+
+  MicroTLB misses:    31,492  [127,017]
+  Main TLB misses:    203  [818]
+  TLB periods:        30
+  Micro miss rate:    0.030   PTI
+  Main miss rate:     0.000   PTI
+
+  Branches:           50,799,821  [204,892,611]
+  Mispredicted BR:    365,632  [1,474,715]
+  BR periods:         30
+  Branch rate:        49.124  PTI
+  Mispredict ratio:   0.720  %
